@@ -1,0 +1,35 @@
+# =============================================================================
+# IFT599 - Science de donnees - TP1 (Automne 2026) - Classe : IFT599-1
+# Equipe :
+#   Mael Hounkou                 (houg1304)
+#   Mouhamadou Moustapha Gueye   (guem8961)
+#   Cheikh Ahmadou Tidiane Ly    (lyzc3821)
+# =============================================================================
+
+# --- Donnees : ne jamais versionner (consigne de l'enonce) -------------------
+TCGA-PANCAN-HiSeq-801x20531/
+TCGA-PANCAN-HiSeq-801x20531.tar.gz
+gene+expression+cancer+rna+seq.zip
+donnees/TCGA-PANCAN-HiSeq-801x20531/
+*.csv.gz
+data.csv
+labels.csv
+
+# --- Cache de l'ensemble de depart (regenerable) -----------------------------
+cache/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Systeme / editeurs ------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

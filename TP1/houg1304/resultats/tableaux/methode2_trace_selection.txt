@@ -1,0 +1,204 @@
+# =============================================================
+# IFT599 - Science de donnees - TP1 (Automne 2026)
+# Classe : IFT599-1
+# Equipe :
+#   Mael Hounkou                     (houg1304)
+#   Mouhamadou Moustapha Gueye       (guem8961)
+#   Cheikh Ahmadou Tidiane Ly        (lyzc3821)
+#
+# Methode 2 - trace de la selection automatique de variables (schema de la diapositive 37 du Theme 1)
+# =============================================================
+
+### variables originales (brutes) | toutes les paires de classes | agregation 'max'
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 21.2559)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (521, 1767) de score 8.3909
+  [Iteration 1] paire (521, 1767), score 8.3909, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | toutes les paires de classes | agregation 'moyenne'
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 12.9367)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (774, 1767) de score 4.8449
+  [Iteration 1] paire (774, 1767), score 4.8449, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | BRCA vs COAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.2855)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (187, 779) de score 0.2826
+  [Iteration 1] paire (187, 779), score 0.2826, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | BRCA vs KIRC
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 2.2859)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1523, 774) de score 0.8916
+  [Iteration 1] paire (1523, 774), score 0.8916, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | BRCA vs LUAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 10.1376)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (350, 774) de score 2.4043
+  [Iteration 1] paire (350, 774), score 2.4043, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | BRCA vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.3726)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1943, 908) de score 0.8754
+  [Iteration 1] paire (1943, 908), score 0.8754, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | COAD vs KIRC
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.4599)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1460, 1200) de score 0.4301
+  [Iteration 1] paire (1460, 1200), score 0.4301, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | COAD vs LUAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.4852)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (779, 1200) de score 0.8829
+  [Iteration 1] paire (779, 1200), score 0.8829, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | COAD vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.3325)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (332, 1189) de score 0.3193
+  [Iteration 1] paire (332, 1189), score 0.3193, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | KIRC vs LUAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.7805)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1206, 46) de score 0.8183
+  [Iteration 1] paire (1206, 46), score 0.8183, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | KIRC vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.3212)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1390, 1189) de score 0.3176
+  [Iteration 1] paire (1390, 1189), score 0.3176, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (brutes) | LUAD vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.5138)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (908, 1189) de score 0.3779
+  [Iteration 1] paire (908, 1189), score 0.3779, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | toutes les paires de classes | agregation 'max'
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 21.2559)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1767, 27) de score 9.2228
+  [Iteration 1] paire (1767, 520), score 8.0567, amelioration 1.166e+00
+  [Iteration 2] paire (1767, 520), score 8.0567, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | toutes les paires de classes | agregation 'moyenne'
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 12.9367)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (130, 1767) de score 5.0135
+  [Iteration 1] paire (130, 1767), score 5.0135, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | BRCA vs COAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.2855)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (432, 779) de score 0.2855
+  [Iteration 1] paire (432, 779), score 0.2855, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | BRCA vs KIRC
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.1786)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1523, 774) de score 0.9186
+  [Iteration 1] paire (1523, 774), score 0.9186, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | BRCA vs LUAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 2.6364)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1565, 967) de score 2.1565
+  [Iteration 1] paire (1565, 38), score 1.4492, amelioration 7.074e-01
+  [Iteration 2] paire (1565, 38), score 1.4492, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | BRCA vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.0625)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1943, 899) de score 0.8602
+  [Iteration 1] paire (1943, 899), score 0.8602, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | COAD vs KIRC
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.4599)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1558, 1200) de score 0.4183
+  [Iteration 1] paire (1558, 1200), score 0.4183, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | COAD vs LUAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.0500)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1200, 1572) de score 0.7216
+  [Iteration 1] paire (1200, 1572), score 0.7216, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | COAD vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.3325)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1231, 1189) de score 0.3325
+  [Iteration 1] paire (1231, 1189), score 0.3325, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | KIRC vs LUAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 1.0000)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (1206, 46) de score 0.8899
+  [Iteration 1] paire (1206, 46), score 0.8899, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | KIRC vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.3212)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (169, 1189) de score 0.3212
+  [Iteration 1] paire (169, 1189), score 0.3212, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### variables originales (Z-score) | LUAD vs PRAD
+  [Strategie] filtrage univarie sur 2000 variables, 60 candidats retenus (meilleur score 1D = 0.5138)
+  [Evaluation] 60 passes vectorisees (120000 paires evaluees) ; paire initiale (908, 1189) de score 0.3522
+  [Iteration 1] paire (908, 1189), score 0.3522, amelioration 0.000e+00
+  [Critere d'arret] aucune amelioration relative superieure a epsilon = 1.0e-06
+
+### composantes principales (ACP) | toutes les paires de classes | agregation 'max'
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | toutes les paires de classes | agregation 'moyenne'
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | BRCA vs COAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | BRCA vs KIRC
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | BRCA vs LUAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | BRCA vs PRAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | COAD vs KIRC
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | COAD vs LUAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | COAD vs PRAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | KIRC vs LUAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | KIRC vs PRAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee
+
+### composantes principales (ACP) | LUAD vs PRAD
+  [Strategie] recherche exhaustive (105 paires)
+  [Critere d'arret] exploration complete terminee

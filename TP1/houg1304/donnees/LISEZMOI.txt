@@ -1,0 +1,38 @@
+===============================================================
+IFT599 - Science de donnees - TP1 (Automne 2026)
+Classe : IFT599-1
+Equipe :
+  Mael Hounkou                 (houg1304)
+  Mouhamadou Moustapha Gueye   (guem8961)
+  Cheikh Ahmadou Tidiane Ly    (lyzc3821)
+===============================================================
+
+EMPLACEMENT DES DONNEES
+
+Conformement a la consigne de l'enonce ("Ne pas soumettre les
+donnees !"), le jeu de donnees n'est pas inclus dans cette remise.
+
+Pour executer le programme, decompressez l'archive fournie dans
+Teams :
+
+    gene+expression+cancer+rna+seq.zip
+      -> TCGA-PANCAN-HiSeq-801x20531.tar.gz
+           -> TCGA-PANCAN-HiSeq-801x20531/
+                ├── data.csv     (801 patients x 20531 genes)
+                └── labels.csv   (801 etiquettes de classe)
+
+puis placez le dossier TCGA-PANCAN-HiSeq-801x20531 ICI, c'est-a-dire
+dans ce repertoire "donnees/".
+
+L'arborescence attendue est donc :
+
+    TP1_IFT599/
+    └── donnees/
+        └── TCGA-PANCAN-HiSeq-801x20531/
+            ├── data.csv
+            └── labels.csv
+
+Il est aussi possible de laisser les donnees ailleurs et d'indiquer
+leur emplacement en ligne de commande :
+
+    python main.py --donnees /chemin/vers/TCGA-PANCAN-HiSeq-801x20531

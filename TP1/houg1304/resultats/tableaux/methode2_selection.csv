@@ -1,0 +1,48 @@
+modalite,cible,agregation,variable_1,variable_2,mesure_evaluation,score,overlap_max,overlap_moyen,paires_bien_separees,nb_paires_evaluees,nb_iterations,strategie
+variables originales (brutes),toutes les paires de classes,max,gene_5256,gene_18235,max des Overlap sur les 10 paires de classes,8.390926947573519,8.390926947573519,6.655844364351805,0/10,126000,1,filtrage + recherche locale
+variables originales (brutes),toutes les paires de classes,moyenne,gene_7896,gene_18235,moyenne des Overlap sur les 10 paires de classes,4.844942523879924,9.914412348916116,4.844942523879924,0/10,126000,1,filtrage + recherche locale
+variables originales (brutes),BRCA / COAD,-,gene_1866,gene_7965,"Overlap(BRCA, COAD)",0.2825925626076077,0.2825925626076077,0.2825925626076077,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),BRCA / KIRC,-,gene_15473,gene_7896,"Overlap(BRCA, KIRC)",0.8916443464694733,0.8916443464694733,0.8916443464694733,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),BRCA / LUAD,-,gene_3339,gene_7896,"Overlap(BRCA, LUAD)",2.404347609250944,2.404347609250944,2.404347609250944,0/1,126000,1,filtrage + recherche locale
+variables originales (brutes),BRCA / PRAD,-,gene_19913,gene_9177,"Overlap(BRCA, PRAD)",0.8754000781368435,0.8754000781368435,0.8754000781368435,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),COAD / KIRC,-,gene_14857,gene_12013,"Overlap(COAD, KIRC)",0.43013317998568973,0.43013317998568973,0.43013317998568973,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),COAD / LUAD,-,gene_7965,gene_12013,"Overlap(COAD, LUAD)",0.8828586655623035,0.8828586655623035,0.8828586655623035,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),COAD / PRAD,-,gene_3119,gene_11910,"Overlap(COAD, PRAD)",0.3192788083303394,0.3192788083303394,0.3192788083303394,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),KIRC / LUAD,-,gene_12078,gene_439,"Overlap(KIRC, LUAD)",0.818317088475098,0.818317088475098,0.818317088475098,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),KIRC / PRAD,-,gene_14130,gene_11910,"Overlap(KIRC, PRAD)",0.3176221110829407,0.3176221110829407,0.3176221110829407,1/1,126000,1,filtrage + recherche locale
+variables originales (brutes),LUAD / PRAD,-,gene_9177,gene_11910,"Overlap(LUAD, PRAD)",0.37790679301515484,0.37790679301515484,0.37790679301515484,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),toutes les paires de classes,max,gene_18235,gene_5254,max des Overlap sur les 10 paires de classes,8.0566771797011,8.0566771797011,5.381142395720819,0/10,130000,2,filtrage + recherche locale
+variables originales (Z-score),toutes les paires de classes,moyenne,gene_1315,gene_18235,moyenne des Overlap sur les 10 paires de classes,5.013519030648912,8.668551129488039,5.013519030648912,0/10,126000,1,filtrage + recherche locale
+variables originales (Z-score),BRCA / COAD,-,gene_4333,gene_7965,"Overlap(BRCA, COAD)",0.2854915460231705,0.2854915460231705,0.2854915460231705,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),BRCA / KIRC,-,gene_15473,gene_7896,"Overlap(BRCA, KIRC)",0.9185785963529305,0.9185785963529305,0.9185785963529305,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),BRCA / LUAD,-,gene_15895,gene_357,"Overlap(BRCA, LUAD)",1.4491658114986496,1.4491658114986496,1.4491658114986496,0/1,130000,2,filtrage + recherche locale
+variables originales (Z-score),BRCA / PRAD,-,gene_19913,gene_9111,"Overlap(BRCA, PRAD)",0.8601938562628864,0.8601938562628864,0.8601938562628864,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),COAD / KIRC,-,gene_15807,gene_12013,"Overlap(COAD, KIRC)",0.4182812621181161,0.4182812621181161,0.4182812621181161,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),COAD / LUAD,-,gene_12013,gene_15983,"Overlap(COAD, LUAD)",0.7216484969262976,0.7216484969262976,0.7216484969262976,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),COAD / PRAD,-,gene_12377,gene_11910,"Overlap(COAD, PRAD)",0.33254067235985363,0.33254067235985363,0.33254067235985363,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),KIRC / LUAD,-,gene_12078,gene_439,"Overlap(KIRC, LUAD)",0.8899320667000077,0.8899320667000077,0.8899320667000077,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),KIRC / PRAD,-,gene_1749,gene_11910,"Overlap(KIRC, PRAD)",0.3211749264697745,0.3211749264697745,0.3211749264697745,1/1,126000,1,filtrage + recherche locale
+variables originales (Z-score),LUAD / PRAD,-,gene_9177,gene_11910,"Overlap(LUAD, PRAD)",0.3521597415298258,0.3521597415298258,0.3521597415298258,1/1,126000,1,filtrage + recherche locale
+composantes principales (ACP),toutes les paires de classes,max,CP3,CP12,max des Overlap sur les 10 paires de classes,33.741492811626756,33.741492811626756,13.59446056954356,2/10,105,0,exhaustive
+composantes principales (ACP),toutes les paires de classes,moyenne,CP1,CP3,moyenne des Overlap sur les 10 paires de classes,10.008289645764822,39.8598572484429,10.008289645764822,0/10,105,0,exhaustive
+composantes principales (ACP),BRCA / COAD,-,CP4,CP6,"Overlap(BRCA, COAD)",1.7914378753336326,1.7914378753336326,1.7914378753336326,0/1,105,0,exhaustive
+composantes principales (ACP),BRCA / KIRC,-,CP1,CP11,"Overlap(BRCA, KIRC)",2.397640285735431,2.397640285735431,2.397640285735431,0/1,105,0,exhaustive
+composantes principales (ACP),BRCA / LUAD,-,CP5,CP7,"Overlap(BRCA, LUAD)",5.106345689674385,5.106345689674385,5.106345689674385,0/1,105,0,exhaustive
+composantes principales (ACP),BRCA / PRAD,-,CP3,CP13,"Overlap(BRCA, PRAD)",1.7304314773509517,1.7304314773509517,1.7304314773509517,0/1,105,0,exhaustive
+composantes principales (ACP),COAD / KIRC,-,CP1,CP5,"Overlap(COAD, KIRC)",1.0371466012515418,1.0371466012515418,1.0371466012515418,0/1,105,0,exhaustive
+composantes principales (ACP),COAD / LUAD,-,CP4,CP15,"Overlap(COAD, LUAD)",1.8175120657523618,1.8175120657523618,1.8175120657523618,0/1,105,0,exhaustive
+composantes principales (ACP),COAD / PRAD,-,CP3,CP6,"Overlap(COAD, PRAD)",0.5685115157852992,0.5685115157852992,0.5685115157852992,1/1,105,0,exhaustive
+composantes principales (ACP),KIRC / LUAD,-,CP1,CP5,"Overlap(KIRC, LUAD)",1.6220131058894027,1.6220131058894027,1.6220131058894027,0/1,105,0,exhaustive
+composantes principales (ACP),KIRC / PRAD,-,CP1,CP3,"Overlap(KIRC, PRAD)",1.1210959428128033,1.1210959428128033,1.1210959428128033,0/1,105,0,exhaustive
+composantes principales (ACP),LUAD / PRAD,-,CP3,CP7,"Overlap(LUAD, PRAD)",0.9189708212427812,0.9189708212427812,0.9189708212427812,1/1,105,0,exhaustive
+t-SNE (projection globale),toutes les paires de classes,max et moyenne,t-SNE 1,t-SNE 2,aucune selection : les 2 dimensions sont generees,2.5162592674624893,2.5162592674624893,0.6322746926641237,8/10,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),BRCA / COAD,-,t-SNE 1,t-SNE 2,"Overlap(BRCA, COAD)",0.3758311561424746,0.3758311561424746,0.3758311561424746,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),BRCA / KIRC,-,t-SNE 1,t-SNE 2,"Overlap(BRCA, KIRC)",0.35627789417031713,0.35627789417031713,0.35627789417031713,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),BRCA / LUAD,-,t-SNE 1,t-SNE 2,"Overlap(BRCA, LUAD)",2.1880811680835786,2.1880811680835786,2.1880811680835786,0/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),BRCA / PRAD,-,t-SNE 1,t-SNE 2,"Overlap(BRCA, PRAD)",0.4865381336153351,0.4865381336153351,0.4865381336153351,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),COAD / KIRC,-,t-SNE 1,t-SNE 2,"Overlap(COAD, KIRC)",0.25212711485850237,0.25212711485850237,0.25212711485850237,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),COAD / LUAD,-,t-SNE 1,t-SNE 2,"Overlap(COAD, LUAD)",0.5644609010490611,0.5644609010490611,0.5644609010490611,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),COAD / PRAD,-,t-SNE 1,t-SNE 2,"Overlap(COAD, PRAD)",0.22768354517514144,0.22768354517514144,0.22768354517514144,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),KIRC / LUAD,-,t-SNE 1,t-SNE 2,"Overlap(KIRC, LUAD)",0.3211048692181197,0.3211048692181197,0.3211048692181197,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),KIRC / PRAD,-,t-SNE 1,t-SNE 2,"Overlap(KIRC, PRAD)",0.27593334867843583,0.27593334867843583,0.27593334867843583,1/1,0,0,generation directe de 2 dimensions (perplexite 30)
+t-SNE (projection par paire),LUAD / PRAD,-,t-SNE 1,t-SNE 2,"Overlap(LUAD, PRAD)",0.32576516383096815,0.32576516383096815,0.32576516383096815,1/1,0,0,generation directe de 2 dimensions (perplexite 30)

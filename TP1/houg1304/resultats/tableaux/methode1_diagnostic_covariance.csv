@@ -1,0 +1,4 @@
+transformation,metrique,methode,lambda,delta_absolu,rang_numerique,dimension_blanchie,conditionnement
+brut,mahalanobis,ridge,0.01,0.018163310421241505,800,2000,32666.612426316762
+zscore,mahalanobis,ridge,0.01,0.010012500000000006,800,2000,21809.88053138944
+minmax,mahalanobis,ridge,0.01,0.0002359828712968134,800,2000,25921.057250877246

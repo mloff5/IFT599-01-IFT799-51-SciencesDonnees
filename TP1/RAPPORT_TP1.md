@@ -3,7 +3,7 @@
 **Cours** : IFT 599 / IFT 799 — Science de données
 **Classe** : [IFT599-1 / IFT799-51 / IFT799-52 — à compléter]
 **Équipe** :
-- [Nom complet — CIP/matricule]
+- Mael Hounkou houg1304
 - [Nom complet — CIP/matricule]
 - [Nom complet — CIP/matricule]
 
